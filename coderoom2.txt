@@ -1,12 +1,23 @@
 scan 1
 battery_check 20
 correct_ip
-//1=0TQDG2KEDB4FH3
-1=0TQDFCHEDBY3H0
+//1=0TQDG2KEDBPE19
+1=0TQDG2KEDB4FH3
+//1=0TQDFCHEDBY3H0
+//2=0TQDG2KEDBWK3X
+//2=0TQDG2QEDB04T1
+//2=0TQDG2KEDBWK3X
 //2=0TQDFCHEDB3F86
 1>takeoff
 sync 15
-1>forward 150 
-1>cw 360
-1>back 150
+1>forward 250
+sync 10
+1>cw 180
+sync 10
+1>forward 100
+sync 10
+1>flip f
+sync 10
+1>cw 180
+sync 10
 1>land
