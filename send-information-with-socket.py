@@ -1,4 +1,6 @@
-# Auteur : Jean-Christophe HENRY jeanchristophe.henry@orange.com
+# Auteur : Jean-Christophe HENRY 
+# Mail   : jeanchristophe.henry@orange.com 
+# Service: DTSI/DSI CCMD
 # Script permettant d'intéragir directement avec les drones depuis le docket
 # Pour ajouter des actions il faut aller dans la méthode
 # if __name__ == '__main__':
