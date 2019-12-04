@@ -1,7 +1,7 @@
 # Auteur : Jean-Christophe HENRY 
 # Mail   : jeanchristophe.henry@orange.com 
 # Service: DTSI/DSI CCMD
-# Script permettant d'intéragir directement avec les drones depuis le docket
+# Script permettant d'intéragir directement avec les drones
 # Pour ajouter des actions il faut aller dans la méthode
 # if __name__ == '__main__':
 # Puis ajouter une nouvelle ligne thread
@@ -96,7 +96,10 @@ if __name__ == '__main__':
     # Je demande que le drone de partir vers le haut
     action_thread = Thread(target=do_actions("takeoff", 3))
  
-    # Je demande que le drone de partir vers le bas
+    # Je demande que le drone de faire un flip à gauche
+    action_thread = Thread(target=do_actions("flip l", 3))
+
+    # Je demande que le drone d'atterrir'
     action_thread = Thread(target=do_actions("land", 3))
 
     # Here we start the thread and we wait 5 seconds before the code continues to execute.
