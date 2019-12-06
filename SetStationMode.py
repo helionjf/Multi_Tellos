@@ -93,7 +93,7 @@ if __name__ == '__main__':
     # Je demande le wifi'
     action_thread = Thread(target=do_actions("wifi?", 3))
 
-    # Je demande l'heure'
+    # Je positionne le drone en mode station ap ssid paswd
     action_thread = Thread(target=do_actions("ap netgear-build buildfactory", 3))
 
     # Here we start the thread and we wait 5 seconds before the code continues to execute.
