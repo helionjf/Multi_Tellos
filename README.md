@@ -26,7 +26,7 @@ Schéma des liaisons entre PC et drone en mode station :
 [TELLO5] ---wifi---\_______/
 
 Chaque drone doit être positionné en mode station en le connectant au PC et en lancant le script SetStationMode.py.
-Puis le PC doit se connecter au routeur et lancer le script ""A compléter"".
+Puis le PC doit se connecter au routeur et lancer le script <B> multi_tello_test.py coderoom2.txt</B> où coderoom2.txt regroupe les commandes qui seront diffusées vers les drones connectés et identifiés.""A compléter par rapport à une version compatible py 3.8"".
 
 Note :
 Expérience de relier 5 PC à 5 drones via le routeur :
