@@ -1,7 +1,7 @@
 # Multi_Tellos
 Codes pour faire fonctionner un essaim de tellos
 dernière mise à jour le 04/12/2019 :
-Send-information-with-socket.py
+<B>Send-information-with-socket.py</>
 Code éloboré par jeanchristophe.henry@orange.com
 Code qui permet une meilleure visibilité des interactions entre le drone et le PC.
 Ajout d'une commande "flip" pour plus de démonstration.
