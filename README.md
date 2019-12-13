@@ -5,12 +5,27 @@ dernière mise à jour le 04/12/2019 :
 Code éloboré par jeanchristophe.henry@orange.com
 Code qui permet une meilleure visibilité des interactions entre le drone et le PC.
 Ajout d'une commande "flip" pour plus de démonstration.
+
+Et pour passer le drone en mode station au lieu de son mode par défaut en accès point :
+
+
+
+
 Code de référence en py27 :
 https://github.com/TelloSDK/Multi-Tello-Formation
 
 
 Cela fonctionne aussi avec un tello donc on peut en faire fonctionner avec plusieurs PC sachant que chaque PC pointe vers un tello particulier à l'aide de son ident.
-Tableau des idents :
+exemple de tableau des idents :
+
+N°	IDENT	SN
+1	D3FCE4	0TQDFCHEDB3F86
+2	DC5CE0	0TQDG2KEDB4FH3
+3	DC5CF3	0TQDG2KEDB04T1
+4	D3F926	0TQDFCHEDBY3H0
+5	DC5F6C	0TQDG2KEDBWK3X
+6	DC5F05	0TQDG2KEDBPE19
+
 
 Configuration :
 c:\python27 installé
