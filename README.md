@@ -10,9 +10,32 @@ Et pour passer le drone en mode station au lieu de son mode par défaut en accè
 
 Pour le faire revenir en mode accès point lorsqu'il est actif en mode station, appuyer plus de 5 secondes sur le bouton [Marche/Arrêt] : cela réinitialise le drone.
 
+Schéma des liaisons entre PC et drone en mode par défaut (accès point) :
+[TELLO1] ---wifi---[PC]
+Connecter le PC au wifi TELLO1, puis lancer les commandes avec le programme <B>Send-information-with-socket.py</B>
+Chaque drone sera relié successivement à un PC ou bien il faut 1 PC par drone.
 
+Schéma des liaisons entre PC et drone en mode station :
+                    _______
+[TELLO1] ---wifi---/       \
+[TELLO2] ---wifi---|       |
+[TELLO3] ---wifi---[ROUTEUR] --- [PC]
+[TELLO4] ---wifi---|       |
+[TELLO5] ---wifi---\_______/
 
+Chaque drone doit être positionné en mode station en le connectant au PC et en lancant le script SetStationMode.py.
+Puis le PC doit se connecter au routeur et lancer le script ""A compléter"".
 
+Note :
+Expérience de relier 5 PC à 5 drones via le routeur :
+                    _______
+[TELLO1] ---wifi---/       \ --- [PC]
+[TELLO2] ---wifi---|       | --- [PC]
+[TELLO3] ---wifi---[ROUTEUR] --- [PC]
+[TELLO4] ---wifi---|       | --- [PC]
+[TELLO5] ---wifi---\_______/ --- [PC]
+
+Cela ne semble pas fonctionner terriblement si l'organisation n'est pas stricte (un PC peut contrôler un drone qui ne lui est pas attribué. (A vérifier)
 
 Code de référence en py27 :
 https://github.com/TelloSDK/Multi-Tello-Formation
