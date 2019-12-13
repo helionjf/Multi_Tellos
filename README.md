@@ -20,10 +20,10 @@ Chaque drone sera relié successivement à un PC ou bien il faut 1 PC par drone.
 Schéma des liaisons entre PC et drone en mode station :
 <br>
                     _______<br>
-[TELLO1] ---wifi---/       \<br>
-[TELLO2] ---wifi---|       |<br>
+[TELLO1] ---wifi---|.......|.<br>
+[TELLO2] ---wifi---|.......|<br>
 [TELLO3] ---wifi---[ROUTEUR] --- [PC]<br>
-[TELLO4] ---wifi---|       |<br>
+[TELLO4] ---wifi---|.......|<br>
 [TELLO5] ---wifi---\_______/<br>
 
 
