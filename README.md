@@ -6,7 +6,7 @@ Code éloboré par jeanchristophe.henry@orange.com
 Code qui permet une meilleure visibilité des interactions entre le drone et le PC.
 Ajout d'une commande "flip" pour plus de démonstration.
 
-Et pour passer le drone en mode station au lieu de son mode par défaut en accès point :
+Et pour passer le drone en mode station au lieu de son mode par défaut en accès point : <B>SetStationMode.py</B>
 
 
 
