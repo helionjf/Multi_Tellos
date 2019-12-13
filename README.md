@@ -21,10 +21,11 @@ Puis stats.py et tello_manager.py et enfin multi_tello_test.py qui est le progra
 exemple coderoom2.txt
 
 
-Après on se réfère au manuel du tello pour les autres commandes.
-https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
+Après on se réfère au manuel du tello pour les autres commandes : https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
+
 Le site de Ryze :
 https://www.ryzerobotics.com/fr/tello-edu
+
 Les docs sur Tello Edu :
 https://www.ryzerobotics.com/fr/tello-edu/downloads
 
