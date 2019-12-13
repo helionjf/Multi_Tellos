@@ -18,12 +18,14 @@ Connecter le PC au wifi TELLO1, puis lancer les commandes avec le programme <B>S
 Chaque drone sera relié successivement à un PC ou bien il faut 1 PC par drone.
 
 Schéma des liaisons entre PC et drone en mode station :
-                    _______
-[TELLO1] ---wifi---/       \
-[TELLO2] ---wifi---|       |
-[TELLO3] ---wifi---[ROUTEUR] --- [PC]
-[TELLO4] ---wifi---|       |
-[TELLO5] ---wifi---\_______/
+<br>
+                    _______<br>
+[TELLO1] ---wifi---/       \<br>
+[TELLO2] ---wifi---|       |<br>
+[TELLO3] ---wifi---[ROUTEUR] --- [PC]<br>
+[TELLO4] ---wifi---|       |<br>
+[TELLO5] ---wifi---\_______/<br>
+
 
 Chaque drone doit être positionné en mode station en le connectant au PC et en lancant le script SetStationMode.py.
 Puis le PC doit se connecter au routeur et lancer le script <B> multi_tello_test.py coderoom2.txt</B> où coderoom2.txt regroupe les commandes qui seront diffusées vers les drones connectés et identifiés.""A compléter par rapport à une version compatible py 3.8"".
