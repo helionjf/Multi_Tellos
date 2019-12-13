@@ -22,6 +22,13 @@ exemple coderoom2.txt
 
 
 Après on se réfère au manuel du tello pour les autres commandes.
+https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
+Le site de Ryze :
+https://www.ryzerobotics.com/fr/tello-edu
+Les docs sur Tello Edu :
+https://www.ryzerobotics.com/fr/tello-edu/downloads
+
+
 
 On peut enfin regrouper les commandes dans un même fichier pour faire voler tous les tellos en même temps à partir d'un seul PC.
 
