@@ -8,7 +8,7 @@ Code qui permet une meilleure visibilité des interactions entre le drone et le 
 Ajout d'une commande "flip" pour plus de démonstration.
 
 Et pour passer le drone en mode station au lieu de son mode par défaut en accès point : <B>SetStationMode.py</B>
-Qui rend obsolete "Formation_setup.py
+Qui rend obsolete "formation_setup.py"
 
 Pour le faire revenir en mode accès point lorsqu'il est actif en mode station, appuyer plus de 5 secondes sur le bouton [Marche/Arrêt] : cela réinitialise le drone.
 
