@@ -4,6 +4,7 @@ dernière mise à jour le 04/12/2019 :
 <B>Send-information-with-socket.py</B>
 Code éloboré par jeanchristophe.henry@orange.com
 Code qui permet une meilleure visibilité des interactions entre le drone et le PC.
+Code qui rend obsolete le code 
 Ajout d'une commande "flip" pour plus de démonstration.
 
 Et pour passer le drone en mode station au lieu de son mode par défaut en accès point : <B>SetStationMode.py</B>
