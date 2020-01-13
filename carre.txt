@@ -1,0 +1,33 @@
+scan 5
+battery_check 20
+correct_ip
+1=0TQDF72EDB2BP8
+2=0TQDF72EDB2BP8
+3=0TQDF72EDB2BP8
+4=0TQDF72EDB2BP8
+5=0TQDF72EDB2BP8
+*>takeoff
+sync 10
+1>up 100
+2>up 100
+3>up 200
+4>up 200
+sync 10
+3>forward 100
+4>forward 100
+5>up 50
+*>forward 400
+sync 10
+*>flip
+sync 10
+*>CW 180
+sync 10
+*>forward 450
+sync 10
+*>left 50
+sync 10
+*>right 50
+sync 10
+3>back 100
+4>back 100
+*>land
